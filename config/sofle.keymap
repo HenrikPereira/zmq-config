@@ -13,9 +13,7 @@
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
-#define ADJUST 
-
-&studio_unlock
+#define ADJUST
 
 / {
 
