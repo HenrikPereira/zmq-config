@@ -58,6 +58,12 @@
 };
 
 / {
+    chosen {
+        zmk,underglow = &led_strip;
+    };
+};
+
+/ {
     backlight: pwmleds {
         compatible = "pwm-leds";
         pwm_led_0 {
@@ -65,7 +71,6 @@
         };
     };
     chosen {
-        zmk,underglow = &led_strip;
         zmk,backlight = &backlight;
     };
 };
